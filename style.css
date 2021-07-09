@@ -1,0 +1,64 @@
+
+.background_image {
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background_image::before {    
+    content: "";
+    background-image: url("./images/bgi.jpeg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px; 
+    opacity: 0.5;
+}
+
+.content {
+    position: relative;
+    color: #000;  
+    font-size: 1rem;
+    line-height: 1;
+    /* text-align: center; */
+}
+h1{
+    text-align: center;
+}
+
+.btn {
+  border: none; /* Remove borders */
+  color: white; /* Add a text color */
+  padding: 14px 28px; /* Add some padding */
+  cursor: pointer; /* Add a pointer cursor on mouse-over */
+}
+
+.doctorlogin {background-color: #27d42c;} /* Green */
+.doctorlogin:hover {background-color: #52aa55;}
+
+.patientlogin {background-color: #2196F3;} /* Blue */
+.patientlogin:hover {background: #0b7dda;}
+
+.hospitallogin {background-color: #ff9800;} /* Orange */
+.hospitallogin:hover {background: #e68a00;}
+
+.pathologistlogin {background-color: #f44336;} /* Red */
+.pathologistlogin:hover {background: #da190b;}
+
+
+.column{
+    float:left;
+    width:31%;
+    padding:4px;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display:table;
+}

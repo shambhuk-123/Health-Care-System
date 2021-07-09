@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" 
+        content="width=device-width, 
+        initial-scale=1.0">
+        <title>Add Patient</title>
+        <!-- google fonts -->
+        <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <h1>WILL BE UPDATED SOON!!</h1> -->
+    <h1>Health Care System</h1>
+    <div style="text-align: center;">Please fill the following details correctly and click on "Submit" button </div>
+    <br><br>
+    <form style="text-align: center;" action="">
+        <!-- name -->
+        <label for="name">Patient Name </label>
+        <input type="text" name="name" id="name"/>
+        <br><br>
+
+        <!-- email -->
+        <label for="email">Email </label>
+        <input type="text" name="email" id="email"/>
+        <br><br>
+
+        <!-- contactnumber -->
+        <label for="contactnumber">Contact Number</label>
+        <input type="number" name="contactnumber" id="contactnumber">
+        <br><br>
+
+        <!-- dob -->
+        <label for="dob">DOB </label>
+        <input type="date" name="dob" id="dob">
+        <br><br>
+        <!-- gender -->
+        <label for="gender">Gender </label>
+        <input class="gender" type="radio" name="gender" id="gender">Male
+        <input class="gender" type="radio" name="gender" id="gender">Female
+        <input class="gender" type="radio" name="gender" id="gender">Other
+
+        <br><br> 
+        <!-- image -->
+        <!-- <label for="image">Patient Image </label>
+        <input type="image" src="" alt="patient image">
+        <br><br> -->
+        
+        <!-- address -->
+        <p>Address :</p>
+        <textarea name="address" id="address" 
+        cols="30" rows="10" 
+        placeholder="Your Address"></textarea>
+        <br><br>
+        <input type="button" value="Submit">
+    </form>
+</body>
+</html>
